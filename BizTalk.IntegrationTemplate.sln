@@ -1,0 +1,73 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{88DF31D2-1D34-456F-AB1D-2C14EEE41C04}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Deployment.btdfproj = Deployment\Deployment.btdfproj
+		Deployment\InstallWizard.xml = Deployment\InstallWizard.xml
+		Deployment\License.rtf = Deployment\License.rtf
+		Deployment\PortBindingsMaster.xml = Deployment\PortBindingsMaster.xml
+		Deployment\SettingsFileGenerator.xml = Deployment\SettingsFileGenerator.xml
+		Deployment\UnInstallWizard.xml = Deployment\UnInstallWizard.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk.IntegrationTemplate.Schemas", "BizTalk.IntegrationTemplate.Schemas\BizTalk.IntegrationTemplate.Schemas.btproj", "{8044CBBE-1BEA-425C-A413-E214C6981F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk.IntegrationTemplate.Maps", "BizTalk.IntegrationTemplate.Maps\BizTalk.IntegrationTemplate.Maps.btproj", "{79A7350C-C8B1-43EB-93CF-7614A2240ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk.IntegrationTemplate.Components", "BizTalk.IntegrationTemplate.Components\BizTalk.IntegrationTemplate.Components.csproj", "{538894A6-3B1E-48AA-9E1F-F739AA72680A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk.IntegrationTemplate.PipelineComponents", "BizTalk.IntegrationTemplate.PipelineComponents\BizTalk.IntegrationTemplate.PipelineComponents.csproj", "{43FE2568-72E9-4FFD-A363-0222FE0DF051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk.IntegrationTemplate.Pipelines", "BizTalk.IntegrationTemplate.Pipelines\BizTalk.IntegrationTemplate.Pipelines.btproj", "{FC3DBCBF-04F5-4489-87AB-DE1BBA8753A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk.IntegrationTemplate.Orchestrations", "BizTalk.IntegrationTemplate.Orchestrations\BizTalk.IntegrationTemplate.Orchestrations.btproj", "{193831EF-AA9D-4C29-A4CC-9DB6311148D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8044CBBE-1BEA-425C-A413-E214C6981F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8044CBBE-1BEA-425C-A413-E214C6981F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8044CBBE-1BEA-425C-A413-E214C6981F7F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8044CBBE-1BEA-425C-A413-E214C6981F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8044CBBE-1BEA-425C-A413-E214C6981F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8044CBBE-1BEA-425C-A413-E214C6981F7F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{79A7350C-C8B1-43EB-93CF-7614A2240ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A7350C-C8B1-43EB-93CF-7614A2240ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A7350C-C8B1-43EB-93CF-7614A2240ABD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{79A7350C-C8B1-43EB-93CF-7614A2240ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A7350C-C8B1-43EB-93CF-7614A2240ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A7350C-C8B1-43EB-93CF-7614A2240ABD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{538894A6-3B1E-48AA-9E1F-F739AA72680A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538894A6-3B1E-48AA-9E1F-F739AA72680A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538894A6-3B1E-48AA-9E1F-F739AA72680A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538894A6-3B1E-48AA-9E1F-F739AA72680A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43FE2568-72E9-4FFD-A363-0222FE0DF051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FE2568-72E9-4FFD-A363-0222FE0DF051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FE2568-72E9-4FFD-A363-0222FE0DF051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FE2568-72E9-4FFD-A363-0222FE0DF051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3DBCBF-04F5-4489-87AB-DE1BBA8753A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3DBCBF-04F5-4489-87AB-DE1BBA8753A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3DBCBF-04F5-4489-87AB-DE1BBA8753A9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FC3DBCBF-04F5-4489-87AB-DE1BBA8753A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3DBCBF-04F5-4489-87AB-DE1BBA8753A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3DBCBF-04F5-4489-87AB-DE1BBA8753A9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{193831EF-AA9D-4C29-A4CC-9DB6311148D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193831EF-AA9D-4C29-A4CC-9DB6311148D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193831EF-AA9D-4C29-A4CC-9DB6311148D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{193831EF-AA9D-4C29-A4CC-9DB6311148D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193831EF-AA9D-4C29-A4CC-9DB6311148D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193831EF-AA9D-4C29-A4CC-9DB6311148D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58C43672-FC0E-48DD-B1EF-304D7E7FBF61}
+	EndGlobalSection
+EndGlobal
