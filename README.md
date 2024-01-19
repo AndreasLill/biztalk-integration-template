@@ -4,4 +4,4 @@ BizTalk Server 2020 integration template preconfigured with biztalk deployment f
 
 ## How To Use
 
-Copy all the files except .vs and .git to a new folder and run the included powershell script "RenameSolution.ps1" to rename the solution.
+Copy all the files to a new folder and run the included powershell script "RenameSolution.ps1" to rename the solution, then just open the visual studio solution and deploy!
